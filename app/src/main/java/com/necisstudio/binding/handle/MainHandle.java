@@ -7,6 +7,7 @@ import android.view.View;
 
 import com.necisstudio.binding.view.BasicActivity;
 import com.necisstudio.binding.view.EventClickActivity;
+import com.necisstudio.binding.view.RecycleViewActivity;
 
 /**
  * Created by vim on 05/12/16.
@@ -30,7 +31,8 @@ public class MainHandle {
     }
 
     public void onClickRecycleView(View view) {
-        Log.e("data", "bisa");
+        Intent intent = new Intent(context, RecycleViewActivity.class);
+        context.startActivity(intent);
     }
 
 }
