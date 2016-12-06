@@ -4,7 +4,7 @@
     <data>
         <variable
             name="handleclick"
-            type="com.necisstudio.binding.handle.MainHandle" />
+            type="com.necisstudio.binding.viewmodel.MainHandle" />
     </data>
 
     <LinearLayout

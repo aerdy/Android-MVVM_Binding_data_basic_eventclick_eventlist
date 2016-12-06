@@ -7,7 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 
 import com.necisstudio.binding.R;
 import com.necisstudio.binding.databinding.ActivityEventclickBinding;
-import com.necisstudio.binding.handle.EventClickHandle;
+import com.necisstudio.binding.viewmodel.EventClickHandle;
 
 /**
  * Created by vim on 06/12/16.

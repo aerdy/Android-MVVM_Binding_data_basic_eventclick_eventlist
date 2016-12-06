@@ -5,8 +5,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.necisstudio.binding.databinding.ActivityMainBinding;
-import com.necisstudio.binding.handle.MainHandle;
 import com.necisstudio.binding.model.Article;
+import com.necisstudio.binding.viewmodel.MainHandle;
 
 public class MainActivity extends AppCompatActivity {
 

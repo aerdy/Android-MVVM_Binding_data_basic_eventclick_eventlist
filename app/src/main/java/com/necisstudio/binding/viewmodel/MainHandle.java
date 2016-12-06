@@ -1,4 +1,4 @@
-package com.necisstudio.binding.handle;
+package com.necisstudio.binding.viewmodel;
 
 import android.content.Context;
 import android.content.Intent;
