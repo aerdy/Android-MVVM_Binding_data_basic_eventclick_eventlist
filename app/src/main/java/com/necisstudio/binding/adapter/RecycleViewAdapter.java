@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 import com.necisstudio.binding.R;
 import com.necisstudio.binding.databinding.ItemRecycleviewBinding;
 import com.necisstudio.binding.model.Article;
+import com.necisstudio.binding.viewmodel.DataBinder;
 
 import java.util.ArrayList;
 

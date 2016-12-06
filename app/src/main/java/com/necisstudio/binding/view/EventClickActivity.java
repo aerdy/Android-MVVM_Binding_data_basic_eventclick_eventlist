@@ -18,7 +18,7 @@ public class EventClickActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         ActivityEventclickBinding binding = DataBindingUtil.setContentView(this, R.layout.activity_eventclick);
-        EventClickHandle handle = new EventClickHandle();
+        EventClickHandle handle = new EventClickHandle(binding);
         binding.setHandleclick(handle);
     }
 }

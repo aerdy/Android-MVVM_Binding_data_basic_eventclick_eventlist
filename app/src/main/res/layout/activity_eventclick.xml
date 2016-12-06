@@ -3,9 +3,14 @@
 
 
     <data>
+
+        <variable
+            name="article"
+            type="com.necisstudio.binding.model.Article" />
+
         <variable
             name="handleclick"
-            type="com.necisstudio.binding.viewmodel.EventClickHandle"/>
+            type="com.necisstudio.binding.viewmodel.EventClickHandle" />
     </data>
 
     <LinearLayout
@@ -18,8 +23,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:text="ADD"
-            android:onClick="@{handleclick::onClickAdd}"/>
+            android:onClick="@{handleclick::onClickAdd}"
+            android:text="ADD" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{article.title}" />
     </LinearLayout>
 
 

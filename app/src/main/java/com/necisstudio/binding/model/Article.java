@@ -6,6 +6,15 @@ package com.necisstudio.binding.model;
 
 public class Article {
     public String title, content;
+    public String logo;
+
+    public String getLogo() {
+        return logo;
+    }
+
+    public void setLogo(String logo) {
+        this.logo = logo;
+    }
 
     public void setTitle(String title) {
         this.title = title;

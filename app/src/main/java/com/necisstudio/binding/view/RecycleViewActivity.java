@@ -30,6 +30,7 @@ public class RecycleViewActivity extends AppCompatActivity {
         Article item = new Article();
         item.setTitle("MVVM 1");
         item.setContent("Bisa");
+        item.setLogo("http://img.monitorday.com/dinamis/detail/20605.jpg");
         modellist.add(0, item);
         modellist.add(1, item);
         modellist.add(2, item);
