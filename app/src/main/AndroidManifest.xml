@@ -16,6 +16,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".view.BasicActivity"/>
+        <activity android:name=".view.EventClickActivity"/>
     </application>
 
 </manifest>

@@ -19,7 +19,7 @@ public class BasicActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         ActivityBasicBinding bindingview = DataBindingUtil.setContentView(this, R.layout.activity_basic);
 
-        Article user = new Article("MVVM Binding Data", "Binding");
+        Article user = new Article();
         user.setContent("MVVM data 2");
         user.setTitle("Binding 2");
         bindingview.setArticle(user);
